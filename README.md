@@ -1,4 +1,4 @@
-#NOTE: This is a modified and refactored copy of [this repo](https://github.com/flyingzhao/PyEVM)
+# NOTE: This is a modified and refactored copy of [this repo](https://github.com/flyingzhao/PyEVM)
 
 # Python implementation of EVM(Eulerian Video Magnification)
 
