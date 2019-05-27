@@ -1,3 +1,5 @@
+#NOTE: This is a modified and refactored copy of [this repo](https://github.com/flyingzhao/PyEVM)
+
 # Python implementation of EVM(Eulerian Video Magnification)
 
 This is a python implementation of eulerian video magnification《[Eulerian Video Magnification for Revealing Subtle Changes in the World](http://people.csail.mit.edu/mrub/evm/)》.
