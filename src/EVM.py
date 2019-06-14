@@ -9,6 +9,7 @@ from ..hparams.registry import get_hparams
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--hparams", type=str)
+parser.add_argument("--path", type=str)
 args = parser.parse_args()
 #global hps
 hps = get_hparams(args.hparams)
@@ -213,4 +214,4 @@ def magnify_motion(video_name, hps, saved_name=None):
 if __name__ == "__main__":
 
   for fn in hps.mode:
-    locals()[fn]("/home/srk/NTU/PyEVM/src/output.mp4", hps)
+    locals()[fn](args.path, hps)
